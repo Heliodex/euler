@@ -1,0 +1,14 @@
+{
+	"lib": ["DOM"],
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noErrorTruncation": true,
+		"strictPropertyInitialization": false
+	}
+}
