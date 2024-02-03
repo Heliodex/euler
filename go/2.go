@@ -6,13 +6,13 @@ const max = 4e6
 
 func main() {
 	sum := 0
-	list := []int{1, 2}
+	fib := []int{1, 2}
 
-	for list[len(list)-1]+list[len(list)-2] < max {
-		list = append(list, list[len(list)-1]+list[len(list)-2])
+	for fib[len(fib)-1]+fib[len(fib)-2] < max {
+		fib = append(fib, fib[len(fib)-1]+fib[len(fib)-2])
 	}
 
-	for _, v := range list {
+	for _, v := range fib {
 		if v%2 == 0 {
 			sum += v
 		}

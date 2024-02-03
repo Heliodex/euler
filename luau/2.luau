@@ -1,15 +1,15 @@
 local max = 4e6
-local sum = 0
-local list = { 1, 2 }
+local fib = { 1, 2 }
+local total = 0
 
-while list[#list] + list[#list - 1] < max do
-	table.insert(list, list[#list] + list[#list - 1])
+while fib[#fib] + fib[#fib - 1] < max do
+	table.insert(fib, fib[#fib] + fib[#fib - 1])
 end
 
-for _, v in ipairs(list) do
+for _, v in ipairs(fib) do
 	if v % 2 == 0 then
-		sum += v
+		total += v
 	end
 end
 
-print(sum)
+print(total)

@@ -1,6 +1,6 @@
 {
-	"lib": ["DOM"],
 	"compilerOptions": {
+		"lib": ["DOM"],
 		"allowJs": true,
 		"checkJs": false,
 		"esModuleInterop": true,
