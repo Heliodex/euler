@@ -1,5 +1,5 @@
 local max = 20
-local start = max//2+1
+local start = max // 2 + 1
 
 for i = max, math.huge, max do
 	local found = true
